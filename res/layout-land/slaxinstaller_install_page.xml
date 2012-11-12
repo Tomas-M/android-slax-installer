@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+    android:keepScreenOn="true" 
+    android:background="@android:color/black"    >
+
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stackFromBottom="true"
+        android:scrollbars="none"
+        android:transcriptMode="alwaysScroll">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">    
+     <LinearLayout
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"
+      android:orientation="vertical"
+      android:layout_margin="20dp"
+      android:gravity="center"> 
+      <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"        
+        android:background="@drawable/bootlogo_land"/>
+	  <TextView 
+	    android:layout_height="wrap_content"
+	    android:layout_margin="20dp"
+	    android:textColor="@android:color/primary_text_dark"
+	    android:layout_width="fill_parent"
+	    android:textStyle="bold"
+	    android:layout_gravity="bottom"
+	    android:textSize="15sp"
+	    android:text="@string/downloadtext"
+	    android:id="@+id/messageTv" />
+       <Button 
+	    android:layout_height="wrap_content"
+	    android:minHeight="30dip"
+	    android:visibility="invisible"
+	    android:enabled="false"	 
+	    android:layout_gravity="bottom"
+	    android:background="@drawable/button_background"  
+	    android:layout_weight=".1"   
+	    android:layout_width="fill_parent"
+	    />        
+ 	
+	  
+     </LinearLayout> 
+   </LinearLayout>    
+  
+    
+   </ScrollView> 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"        
+        android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"        
+        android:gravity="bottom">  
+	<Button 
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/button_background"	 	    
+	    android:id="@+id/downloadBtn"
+	    android:textColor="@android:color/white"	    
+	    android:text="@string/download" />  </LinearLayout>      
+    </LinearLayout>
+</FrameLayout>

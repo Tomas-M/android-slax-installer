@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true" 
+    android:orientation="vertical" 
+    android:background="@android:color/black"
+    >
+    
+    
+  <LinearLayout
+      android:layout_height="0dp"
+      android:layout_width="fill_parent"
+      android:layout_weight=".8"
+
+      android:gravity="center"> 
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"        
+        android:contentDescription="@drawable/bootlogo"
+        android:background="@drawable/bootlogo"/>
+    
+    </LinearLayout> 
+	<Button 
+	    android:layout_height="0dp"
+	    android:layout_width="fill_parent"
+	    android:id="@+id/installBtn"
+	    android:textStyle="bold"
+	    android:textColor="@android:color/white"
+	    android:background="@drawable/button_background"
+	    android:text="@string/install"
+	    android:layout_weight=".1"/>
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:layout_gravity="top"
+      android:background="@android:color/black"
+      
+  ></LinearLayout>	
+	<Button 
+	    android:layout_height="0dp"
+	    android:layout_width="fill_parent"
+	    android:id="@+id/debugBtn"
+	    android:textStyle="bold"
+	    android:textColor="@android:color/white"
+	    android:background="@drawable/button_background"  
+	    android:text="@string/debug"
+	    android:layout_weight=".1"/>
+
+</LinearLayout>

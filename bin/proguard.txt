@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:35
+-keep class com.itechfist.slax.FileDownloader { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.itechfist.slax.SlaxDebugMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.itechfist.slax.SlaxDownloadComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.itechfist.slax.SlaxInstallerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.itechfist.slax.SlaxInstallerDownloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.itechfist.slax.SlaxInstallerInstallActivity { <init>(...); }
+

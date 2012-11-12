@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Slax Installer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_slax">Slax Installer</string>
+    <string name="install">Install Slax to SD card</string>
+    <string name="debug">Boot Slax on your PC</string>
+    <string name="back">Back</string>
+	<string name="download">Download now</string>
+	<string name="downloadtext">Slax Installer will download latest version of Slax Linux to your phone’s SD card. The total download size is around 200MB. All further updates will only download new or changed files, saving your bandwidth. It is recommended to switch off 3G and use Wifi connection to avoid unwanted costs and to speed up the download.\n\n\n</string>
+	<string name="missingsdcard">Error: Your phone is unable to connect to the Internet or your SD card is not accessible at the moment, it may be missing or blocked. Unplugging your USB cable may help, when applicable. Please check your internet connection and SD card and try again.\n\n\n\n\n</string>
+	<string name="missingsdcard1">Your phone is missing a SD card, so it is not possible to boot Slax from it. Please insert SD card and try again.</string>
+	<string name="downloadingslax">Downloading Slax, please wait…</string>
+	<string name="canceldownload">Cancel Download</string>
+	<string name="downloaded">Slax has been downloaded to your phone’s SD card.\n\nImportant : Before you can boot Slax on your computer from your phone, one more step is required.\n\nConnect your phone to your PC by USB cable and wait until you see your SD card as a removable drive. Open the drive in file explorer or similar software and navigate to directory /slax/boot. You’ll see many files in this directory, locate a file called bootinst.bat  and run it (double click should make the trick). It will setup your SD card so it can boot.\n\n\n\n</string>
+	<string name="debugmessage">In order to boot Slax on your PC, connect your phone to it using an USB cable, and reboot. Make sure your computer’s BIOS can boot from USB Mass Storage Device.\n\nIf you have problems seeing your phone’s SD card as mass storage device while your computer reboots, try to enable USB Debugging in your phone, this usually helps.\n\nThis application does not need to be running while you’re booting Slax from your phone, however your USB cable must be connected to your phone all the time, unless you select Copy To RAM feature in Slax boot menu.\n\n\n\n</string>
+	<string name="speed">Speed : \n\n\n</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="NotificationTitle">
+      <item name="android:textColor">?android:attr/textColorPrimary</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NotificationText">
+      <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>    
+</resources>
